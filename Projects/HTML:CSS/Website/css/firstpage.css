@@ -1,0 +1,116 @@
+/* for Work */
+#header-list1 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list1 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 135px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list1 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list1 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list1 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for About us */
+#header-list2 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list2 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 185px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list2 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list2 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list2 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for Contact */
+#header-list3 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list3 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 165px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list3 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list3 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list3 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
