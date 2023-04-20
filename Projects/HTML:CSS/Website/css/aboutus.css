@@ -12,6 +12,8 @@ h3, p {
 	padding-top: 4%;
 }
 
+
+
 /* ----------------------------- Photo -------------------------------*/
 .photo{
 	position: relative;
@@ -117,6 +119,41 @@ h3, p {
 	background-size: cover;
 	background-image: url("https://i.ibb.co/jWB1XmP/LLR2424-4.jpg");
 }
+
+.front a {
+	position: relative;
+	display: block;
+	color: #fff;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.front a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 36%;
+	width: 28%;
+	height: 2px;
+	background: #fff;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+.front a:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+.front a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
 .back {
 	background-color: #333;
 	transform: rotateY(180deg);

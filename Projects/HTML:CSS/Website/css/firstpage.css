@@ -114,3 +114,687 @@
 	color: #333;
 	cursor: pointer;
 }
+
+
+/* For Fashion */
+/* for Work */
+#header-list4 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list4 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 165px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list4 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list4 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list4 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* Media query for under 991px */
+@media (max-width: 991px) {
+	/* for Work */
+#header-list1 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list1 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 105px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list1 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list1 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list1 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for About us */
+#header-list2 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list2 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 148px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list2 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list2 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list2 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for Contact */
+#header-list3 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list3 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 132px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list3 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list3 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list3 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* For Fashion */
+/* for Work */
+#header-list4 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list4 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 132px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list4 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list4 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list4 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+}
+
+/* Media query for under 991px */
+@media (max-width: 758px) {
+	/* for Work */
+#header-list1 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list1 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 92px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list1 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list1 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list1 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for About us */
+#header-list2 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list2 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 128px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list2 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list2 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list2 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for Contact */
+#header-list3 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list3 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 118px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list3 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list3 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list3 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* For Fashion */
+/* for Work */
+#header-list4 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list4 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 118px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list4 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list4 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list4 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+}
+
+/* Media query for under 991px */
+@media (max-width: 576px) {
+	/* for Work */
+#header-list1 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list1 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 92px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list1 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list1 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list1 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for About us */
+#header-list2 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list2 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 128px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list2 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list2 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list2 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for Contact */
+#header-list3 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list3 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 117px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list3 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list3 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list3 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* For Fashion */
+/* for Work */
+#header-list4 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list4 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 117px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list4 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list4 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list4 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+}
+/* Media query for under 991px */
+@media (max-width: 361px) {
+	/* for Work */
+#header-list1 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list1 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 78px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list1 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list1 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list1 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for About us */
+#header-list2 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list2 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 110px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list2 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list2 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list2 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+/* for Contact */
+#header-list3 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list3 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 100px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list3 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list3 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list3 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+
+
+/* For Fashion */
+/* for Work */
+#header-list4 a {
+	position: relative;
+	display: block;
+	padding: 2px 5px 2px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#header-list4 a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 100px;
+	height: 3px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#header-list4 a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+#header-list4 a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#header-list4 a:link:active, a:visited:active { 
+	color: #333;
+	cursor: pointer;
+}
+}

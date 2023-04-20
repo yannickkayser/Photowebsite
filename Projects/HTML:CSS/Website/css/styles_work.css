@@ -1,8 +1,47 @@
+#link a {
+	position: relative;
+	display: block;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+#link a::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 36%;
+	width: 28%;
+	height: 2px;
+	background: #333;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+}
+
+#link a:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+#link a:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+
+#nav-list li a:link:active, a:visited:active { 
+	color: grey;
+	cursor: pointer;
+}
+
 a:link, a:visited { 
 	color: #333;
 	text-decoration: none;
 	cursor: auto;
 }
+
 a:hover {
 	color: grey;
 	cursor: pointer;
@@ -18,6 +57,7 @@ a:link:active, a:visited:active {
 	text-decoration: none;
 	cursor: auto;
 }
+
 #nav-list li a {
 	position: relative;
 	display: block;
