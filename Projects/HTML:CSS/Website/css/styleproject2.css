@@ -97,9 +97,26 @@ body {
   transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
 }
 
-.scroll-animations-example > .scrollsection > .item > .image.-clicked {
+/* scale images bigger small images times 3* normal 2* and big 1.2* */
+.scroll-animations-example > .scrollsection > .item.-small > .image.-clicked {
   /*transform: translateX(0) translateY(0) scale(2);*/
-  transform: translateX(0) translateY(0) scale(1);
+  transform: translateX(0) translateY(0) scale(3);
+  opacity: 1;
+  pointer-events: auto;
+  transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
+}
+
+.scroll-animations-example > .scrollsection > .item.-normal > .image.-clicked {
+  /*transform: translateX(0) translateY(0) scale(2);*/
+  transform: translateX(0) translateY(0) scale(2);
+  opacity: 1;
+  pointer-events: auto;
+  transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
+}
+
+.scroll-animations-example > .scrollsection > .item.-big > .image.-clicked {
+  /*transform: translateX(0) translateY(0) scale(2);*/
+  transform: translateX(0) translateY(0) scale(1.2);
   opacity: 1;
   pointer-events: auto;
   transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
@@ -125,31 +142,6 @@ body {
   filter: grayscale(0);
   opacity: 1;
   cursor: pointer;
-}
-
-/* text description */
-.scroll-animations-example > .scrollsection > .item > .descript {
-  color: black;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(0) translateY(0) scale(1);
-  transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
-
-.scroll-animations-example > .scrollsection > .item > .descript.-active {
-  transform: translateX(0) translateY(0) scale(1);
-  opacity: 1;
-  pointer-events: auto;
-  transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
-}
-
-.scroll-animations-example > .scrollsection > .item > .descript.-clicked:hover {
-  /*transform: translateX(0) translateY(0) scale(2);*/
-  transform: translateX(10vh) translateY(10vh) scale(2);
-  opacity: 1;
-  pointer-events: auto;
-  transition: filter 0.3s ease, opacity 1s ease, transform 1s ease;
 }
 
 #last {
