@@ -57,7 +57,7 @@ body {
   bottom: 13vh;
 }
 .scroll-animations-example > .scrollsection > .item.-small:nth-of-type(4n) {
-  bottom: -13vh;
+  bottom: 5vh;
 }
 .scroll-animations-example > .scrollsection > .item > .image {
   height: 100%;
