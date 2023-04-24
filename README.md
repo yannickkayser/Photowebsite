@@ -2,4 +2,4 @@
 
 website available at :
 
-hhtps://yannickkayser.github.io/Photowebsite/HTML:CSS/Website/index.html
+https://yannickkayser.github.io/Photowebsite/HTML:CSS/Website/index.html
